@@ -1,0 +1,8 @@
+.features-title {
+  display: none;
+}
+
+.features-ul {
+  display: flex;
+  gap: 24px;
+}

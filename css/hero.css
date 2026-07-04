@@ -1,0 +1,42 @@
+.hero {
+  background-color: #2e2f42;
+  color: white;
+}
+
+.order-button {
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  max-width: 169px;
+}
+.order-button:hover {
+  background-color: #404bbf;
+}
+.order-button:focus {
+  background-color: #404bbf;
+}
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 48px;
+  max-width: 1158px;
+  padding: 188px 0px;
+}
+.hero-title {
+  max-width: 496px;
+  margin: 0 auto;
+}
