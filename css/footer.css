@@ -18,6 +18,9 @@
 }
 
 .footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   width: 264px;
   max-width: 264px;
 }

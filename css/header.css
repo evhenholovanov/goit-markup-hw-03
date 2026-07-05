@@ -52,6 +52,6 @@
 .header-logo-accent {
   color: #4d5ae5;
 }
-header {
-  border: 1px solid #e7e9fc;
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
