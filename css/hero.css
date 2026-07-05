@@ -15,6 +15,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  border: 0px solid;
   border-radius: 4px;
   padding: 16px 32px;
   width: 169px;
