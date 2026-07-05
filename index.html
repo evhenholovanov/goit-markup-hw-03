@@ -27,7 +27,7 @@
           <a class="header-logo" href="./index.html"
             ><span class="header-logo-accent">Web</span>Studio</a
           >
-          <nav>
+          <nav class="nav">
             <ul class="nav-ul">
               <li class="nav-ul-li">
                 <a class="nav-ul-li-a" href="#features">Features</a>
@@ -40,7 +40,7 @@
               </li>
             </ul>
           </nav>
-          <address>
+          <address class="address">
             <ul class="address-ul">
               <li class="address-ul-li">
                 <a class="address-ul-li-a" href="mailto:info@devstudio.com"
@@ -62,9 +62,7 @@
       <section id="hero" class="hero">
         <div class="container">
           <div class="hero-content">
-            <div class="hero-title">
-              <h1>Effective Solutions for Your Business</h1>
-            </div>
+            <h1 class="hero-title">Effective Solutions for Your Business</h1>
             <button class="order-button" type="button">
               Order&nbsp;Service
             </button>
@@ -72,34 +70,32 @@
         </div>
       </section>
 
-      <section id="features">
+      <section id="features" class="features">
         <div class="container">
-          <div class="features-title">
-            <h2>Our Features</h2>
-          </div>
+          <h2 class="sr-only">Our Features</h2>
           <ul class="features-ul">
-            <li class="features-li">
+            <li class="features-ul-li">
               <h3>Strategy</h3>
               <p>
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li class="features-li">
+            <li class="features-ul-li">
               <h3>Punctuality</h3>
               <p>
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li class="features-li">
+            <li class="features-ul-li">
               <h3>Diligence</h3>
               <p>
                 Research and confirm brands with the strongest digital growth
                 opportunities and minimize risk.
               </p>
             </li>
-            <li class="features-li">
+            <li class="features-ul-li">
               <h3>Technologies</h3>
               <p>
                 Design practice focused on digital experiences. We bring forth a
@@ -125,8 +121,11 @@
                       alt="Mark Guerrero Product Designer"
                     />
                   </div>
-                  <h3>Mark Guerrero</h3>
-                  <p>Product Designer</p>
+
+                  <div class="team-card-text">
+                    <h3>Mark Guerrero</h3>
+                    <p>Product Designer</p>
+                  </div>
                 </div>
               </li>
               <li class="team-card">
@@ -137,8 +136,10 @@
                       alt="Tom Ford Frontend Developer"
                     />
                   </div>
-                  <h3>Tom Ford</h3>
-                  <p>Frontend Developer</p>
+                  <div class="team-card-text">
+                    <h3>Tom Ford</h3>
+                    <p>Frontend Developer</p>
+                  </div>
                 </div>
               </li>
               <li class="team-card">
@@ -149,8 +150,10 @@
                       alt="Camila Garcia Marketing"
                     />
                   </div>
-                  <h3>Camila Garcia</h3>
-                  <p>Marketing</p>
+                  <div class="team-card-text">
+                    <h3>Camila Garcia</h3>
+                    <p>Marketing</p>
+                  </div>
                 </div>
               </li>
               <li class="team-card">
@@ -161,8 +164,10 @@
                       alt="Daniel Wilson UI Designer"
                     />
                   </div>
-                  <h3>Daniel Wilson</h3>
-                  <p>UI Designer</p>
+                  <div class="team-card-text">
+                    <h3>Daniel Wilson</h3>
+                    <p>UI Designer</p>
+                  </div>
                 </div>
               </li>
             </ul>
@@ -182,8 +187,10 @@
                     ><img src="./images/portfolio-1.jpg" alt="Banking App"
                   /></a>
                 </div>
-                <h3>Banking App</h3>
-                <p>App</p>
+                <div class="portfolio-card-text">
+                  <h3>Banking App</h3>
+                  <p>App</p>
+                </div>
               </li>
               <li class="portfolio-card">
                 <div class="portfolio-img-wrap">
@@ -193,8 +200,10 @@
                       alt="Cashless Payment app"
                   /></a>
                 </div>
-                <h3>Cashless Payment</h3>
-                <p>Marketing</p>
+                <div class="portfolio-card-text">
+                  <h3>Cashless Payment</h3>
+                  <p>Marketing</p>
+                </div>
               </li>
               <li class="portfolio-card">
                 <div class="portfolio-img-wrap">
@@ -202,8 +211,10 @@
                     ><img src="./images/portfolio-3.jpg" alt="Meditation App"
                   /></a>
                 </div>
-                <h3>Meditation App</h3>
-                <p>App</p>
+                <div class="portfolio-card-text">
+                  <h3>Meditation App</h3>
+                  <p>App</p>
+                </div>
               </li>
               <li class="portfolio-card">
                 <div class="portfolio-img-wrap">
@@ -211,8 +222,10 @@
                     ><img src="./images/portfolio-4.jpg" alt="Taxi Service"
                   /></a>
                 </div>
-                <h3>Taxi Service</h3>
-                <p>Marketing</p>
+                <div class="portfolio-card-text">
+                  <h3>Taxi Service</h3>
+                  <p>Marketing</p>
+                </div>
               </li>
               <li class="portfolio-card">
                 <div class="portfolio-img-wrap">
@@ -222,8 +235,10 @@
                       alt="Screen illustrations Design"
                   /></a>
                 </div>
-                <h3>Screen Illustrations</h3>
-                <p>Design</p>
+                <div class="portfolio-card-text">
+                  <h3>Screen Illustrations</h3>
+                  <p>Design</p>
+                </div>
               </li>
               <li class="portfolio-card">
                 <div class="portfolio-img-wrap">
@@ -233,8 +248,10 @@
                       alt="Online courses Marketing"
                   /></a>
                 </div>
-                <h3>Online Courses</h3>
-                <p>Marketing</p>
+                <div class="portfolio-card-text">
+                  <h3>Online Courses</h3>
+                  <p>Marketing</p>
+                </div>
               </li>
             </ul>
           </div>

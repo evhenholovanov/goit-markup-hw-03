@@ -1,8 +1,11 @@
-.features-title {
-  display: none;
-}
-
 .features-ul {
   display: flex;
   gap: 24px;
+}
+
+.features-ul-li {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-basis: 264px;
 }

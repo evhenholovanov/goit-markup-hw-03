@@ -1,12 +1,7 @@
 .team {
   background-color: #f4f4fd;
 }
-.team-ul > li {
-  background-color: #ffffff;
-}
-.team-content {
-  padding: 120px 0px;
-}
+
 .team-title {
   padding-bottom: 72px;
 }
@@ -17,11 +12,18 @@
   justify-content: center;
 }
 .team-card-container {
+  background-color: #ffffff;
   text-align: center;
-
   border-radius: 0px 0px 4px 4px;
-  width: 264px;
+  min-width: 264px;
 }
+.team-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px 16px;
+}
+
 .team-photo-wrap {
   height: fit-content;
   width: fit-content;

@@ -1,6 +1,7 @@
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
+  padding: 100px 0px;
 }
 .footer-logo {
   font-size: 18px;
@@ -19,5 +20,4 @@
 .footer-content {
   width: 264px;
   max-width: 264px;
-  padding: 100px 0px;
 }

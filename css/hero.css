@@ -1,6 +1,7 @@
 .hero {
   background-color: #2e2f42;
   color: white;
+  padding: 188px 0px;
 }
 
 .order-button {
@@ -18,9 +19,6 @@
   border: 0px solid;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  max-width: 169px;
 }
 .order-button:hover {
   background-color: #404bbf;
@@ -34,8 +32,6 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 48px;
-  max-width: 1158px;
-  padding: 188px 0px;
 }
 .hero-title {
   max-width: 496px;

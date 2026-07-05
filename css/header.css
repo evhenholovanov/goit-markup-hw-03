@@ -2,11 +2,10 @@
   display: flex;
   align-items: center;
 }
-address {
+.address {
   margin-left: auto;
 }
-nav {
-  margin-right: 0 auto;
+.nav {
   margin-left: 76px;
 }
 .nav-ul,
@@ -52,4 +51,7 @@ nav {
 }
 .header-logo-accent {
   color: #4d5ae5;
+}
+header {
+  border: 1px solid #e7e9fc;
 }
